@@ -1,0 +1,234 @@
+@import url("./vendor/normalize.css");
+@import url("./reset.css");
+.body {
+  background-color: white;
+}
+.page {
+  max-width: 1920px;
+  font-family: "Raleway";
+}
+.header {
+  background-image: url("./images/header.jpg");
+  height: 100vh;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.header__navigation {
+  padding-top: 33px;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+  align-items: center;
+}
+.header__list {
+  width: 225px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__title {
+  margin: 0;
+}
+.header__item {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+.header__hamburger {
+  display: flex;
+  flex-direction: column;
+}
+.header__line {
+  width: 34px;
+  margin-bottom: 6px;
+}
+.header__line:nth-child(2) {
+  width: 26px;
+}
+.header__line:nth-child(3) {
+  width: 18px;
+  margin-bottom: 0;
+}
+.header__options {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  outline: none;
+  background-color: transparent;
+  list-style-type: none;
+  border: none;
+}
+.header__option {
+  color: black;
+  background-color: transparent;
+}
+.header__buttons {
+  justify-content: space-between;
+  display: flex;
+}
+.header__button {
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+.header__button_cart {
+  margin-right: 0px;
+}
+
+.header__button_search {
+  background-image: url("./images/search.svg");
+}
+.header__button_account {
+  background-image: url("./images/account.svg");
+}
+.header__button_liked {
+  background-image: url("./images/Liked.svg");
+}
+.header__button_cart {
+  background-image: url("./images/Cart.svg");
+}
+.header__user {
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+}
+.header__intro {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 330px;
+  font-family: "Raleway";
+}
+.header__text {
+  font-size: 46px;
+  opacity: 0.85;
+}
+.header__link {
+  font-size: 16px;
+  color: white;
+  align-items: center;
+  display: flex;
+}
+.header__img {
+  margin-left: 7px;
+}
+.header__strip {
+  display: block;
+  border: 1px solid white;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.collections {
+  margin: 100px 0;
+}
+
+.collections__list {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.collections__title {
+  width: 1140px;
+  font-size: 36px;
+  margin: 0 auto 50px;
+}
+.collections__img {
+  z-index: 1;
+}
+.collections__item {
+  position: relative;
+}
+.collections__description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  background: rgba(224, 190, 162, 0.75);
+  backdrop-filter: blur(3px);
+  width: 100%;
+  height: 40px;
+  padding: 8px 0 9px 40%;
+  color: white;
+}
+.collections__form {
+  width: 600px;
+  margin: 100px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.collections__form-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.collections__form-email {
+  border: 0.5px solid #252525;
+  width: 100%;
+  height: 50px;
+}
+.collections__form-button {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #e0bea2;
+  font-size: 16px;
+  color: white;
+  padding: 16px 0px 17px 0px;
+}
+.collections__form-approval {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer__information {
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.footer__item {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252525;
+}
+.footer__copyright {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.footer__img {
+  margin-right: 10px;
+}
+.footer__img:last-child {
+  margin-right: 0px;
+}
