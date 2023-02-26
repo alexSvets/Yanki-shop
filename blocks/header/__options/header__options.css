@@ -1,0 +1,12 @@
+.header__options {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    list-style-type: none;
+    border: none;
+  }

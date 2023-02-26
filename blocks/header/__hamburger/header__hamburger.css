@@ -1,0 +1,4 @@
+.header__hamburger {
+  display: flex;
+  flex-direction: column;
+}

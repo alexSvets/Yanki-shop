@@ -1,0 +1,7 @@
+.header__strip {
+  display: block;
+  border: 1px solid white;
+  width: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

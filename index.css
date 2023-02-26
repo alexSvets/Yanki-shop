@@ -1,0 +1,51 @@
+@import url("./vendor/normalize.css");
+@import url("./blocks/body/body.css");
+@import url("./blocks/page/page.css");
+
+/* header style */
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/__navigation/header__navigation.css");
+@import url("./blocks/header/__hamburger/header__hamburger.css");
+@import url("./blocks/header/__line/header__line.css");
+@import url("./blocks/header/__list/header__list.css");
+@import url("./blocks/header/__item/header__item.css");
+@import url("./blocks/header/__title/header__title.css");
+@import url("./blocks/header/__user/header__user.css");
+@import url("./blocks/header/__options/header__options.css");
+@import url("./blocks/header/__option/header__option.css");
+@import url("./blocks/header/__buttons/header__buttons.css");
+@import url("./blocks/header/__button/header__button.css");
+@import url("./blocks/header/__button/_search/header__button_search.css");
+@import url("./blocks/header/__button/_account/header__button_account.css");
+@import url("./blocks/header/__button/_liked/header__button_liked.css");
+@import url("./blocks/header/__button/_cart/header__button_cart.css");
+@import url("./blocks/header/__intro/header__intro.css");
+@import url("./blocks/header/__text/header__text.css");
+@import url("./blocks/header/__strip/header__strip.css");
+@import url("./blocks/header/__link/header__link.css");
+@import url("./blocks/header/__img/header__img.css");
+
+/* Collections */
+@import url("./blocks/collections/collections.css");
+@import url("./blocks/collections/__title/collections__title.css");
+@import url("./blocks/collections/__list/collections__list.css");
+@import url("./blocks/collections/__item/collections__item.css");
+@import url("./blocks/collections/__img/collections__img.css");
+@import url("./blocks/collections/__description/collections__description.css");
+@import url("./blocks/collections/__form/collections__form.css");
+@import url("./blocks/collections/__form/-title/collections__form-title.css");
+@import url("./blocks/collections/__form/-email/collections__form-email.css");
+@import url("./blocks/collections/__form/-button/collections__form-button.css");
+@import url("./blocks/collections/__form/-approval/collections__form-approval.css");
+
+/* Footer */
+@import url("./blocks/footer/__information/footer__information.css");
+@import url("./blocks/footer/__title/footer__title.css");
+@import url("./blocks/footer/__item/footer__item.css");
+@import url("./blocks/footer/__copyright/footer__copyright.css");
+@import url("./blocks/footer/__img/footer__img.css");
+
+
+
+
+

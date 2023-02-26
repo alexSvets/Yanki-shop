@@ -1,0 +1,6 @@
+.collections__list {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}

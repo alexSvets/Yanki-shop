@@ -1,0 +1,16 @@
+.collections__description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 23px;
+  background: rgba(224, 190, 162, 0.75);
+  backdrop-filter: blur(3px);
+  width: 100%;
+  height: 40px;
+  padding: 8px 0 9px 40%;
+  color: white;
+}

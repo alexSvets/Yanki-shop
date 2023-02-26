@@ -1,0 +1,7 @@
+.collections__form {
+  width: 600px;
+  margin: 100px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

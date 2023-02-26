@@ -1,0 +1,4 @@
+.header__buttons {
+  justify-content: space-between;
+  display: flex;
+}

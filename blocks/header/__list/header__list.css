@@ -1,0 +1,9 @@
+.header__list {
+    width: 225px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
